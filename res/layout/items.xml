@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView android:id="@+id/app_icon"  
+	android:layout_width="48dp"  
+	android:layout_height="48dp"  
+	android:paddingTop="6dip"  
+	android:paddingLeft="2dip"  
+	android:layout_centerVertical="true"  
+	android:layout_alignParentLeft="true" /> 
+	
+    <TextView android:id="@+id/app_name"  
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"  
+	android:textSize="18dip"  
+	android:textColor="@color/black"  
+	android:paddingTop="6dip"  
+	android:paddingRight="2dip"  
+	android:layout_toRightOf="@id/app_icon"    /> 
+	
+    
+    <TextView android:id="@+id/app_name"  
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"  
+	android:textSize="18dip"
+	android:layout_alignParentRight="true"  
+	android:textColor="@color/red"  
+	android:paddingTop="6dip"  
+	android:paddingRight="2dip"  
+   /> 
+      <TextView android:id="@+id/lock"  
+	  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	android:textSize="18dip"
+	android:layout_alignParentRight="true"  
+	android:textColor="@color/red"  
+ /> 
+    <ToggleButton
+            android:id="@+id/app_tgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:focusable="false"
+            focusableInTouchMode="false"
+            android:clickable="true" />
+
+</RelativeLayout>
